@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.qiaodan.myhost">
-
+    <uses-permission android:name="android.permission.BLUETOOTH" />
     <application
         android:name=".App"
         android:allowBackup="true"

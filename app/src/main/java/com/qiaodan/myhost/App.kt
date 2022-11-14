@@ -1,5 +1,6 @@
 package com.qiaodan.myhost
 
+import android.util.Log
 import com.qihoo360.replugin.RePlugin
 import com.qihoo360.replugin.RePluginApplication
 
@@ -12,10 +13,7 @@ class App: RePluginApplication() {
 
     override fun onCreate() {
         super.onCreate()
-
-
-
-
+        Log.d("PluginTag", "Host: Application onCreate!")
     }
 
 
